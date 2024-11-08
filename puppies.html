@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Current Litter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+        .puppy-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .puppy-box {
+            width: 200px;
+            text-align: center;
+        }
+        .puppy-box img {
+            width: 100%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Current Litter</h1>
+		<nav>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+				<li><a href="parents.html">Parents</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="puppies.html">Puppies for Sale</a></li>
+                <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+    </header>
+    <main class="cover-image2">
+        <section class="puppy-grid">
+         <div class="puppy-box">
+            <a href="gallery1.html">
+                <img src="images/mia_cover.jpg" alt="mia">
+                <h3>Mia</h3>
+                <p>Breed: Golden Doodle</p>
+                <p>Price: $2,800</p>
+                <p>FEMALE</p>
+            </a>
+        </div>
+			<div class="puppy-box">
+            <a href="gallery2.html">
+                <img src="images/letty_cover.jpg" alt="letty">
+                <h3>Letty</h3>
+                <p>Breed: Golden Doodle</p>
+                <p>Price: $2,800</p>
+                <p>FEMALE</p>
+            </a>
+        </div>
+			<div class="puppy-box">
+            <a href="gallery3.html">
+                <img src="images/cipher_cover.jpg" alt="cipher">
+                <h3>Cipher</h3>
+                <p>Breed: Golden Doodle</p>
+                <p>Price: $2,800</p>
+                <p>FEMALE</p>
+            </a>
+        </div>
+			<div class="puppy-box">
+            <a href="gallery4.html">
+                <img src="images/dominic_cover.jpg" alt="dom">
+                <h3>Dom</h3>
+                <p>Breed: Golden Doodle</p>
+                <p>Price: $2,500</p>
+                <p>MALE</p>
+            </a>
+        </div>
+			<div class="puppy-box">
+            <a href="gallery5.html">
+                <img src="images/roman_cover.jpg" alt="roman">
+                <h3>Roman</h3>
+                <p>Breed: Golden Doodle</p>
+                <p>Price: $2,500</p>
+                <p>MALE</p>
+            </a>
+        </div>
+			<div class="puppy-box">
+            <a href="gallery6.html">
+                <img src="images/han_cover.jpg" alt="han">
+                <h3>Han</h3>
+                <p>Breed: Golden Doodle</p>
+                <p>Price: $2,500</p>
+                <p>MALE</p>
+            </a>
+        </div>
+			<div class="puppy-box">
+            <a href="gallery7.html">
+                <img src="images/tej_cover.jpg" alt="tej">
+                <h3>Tej</h3>
+                <p>Breed: Golden Doodle</p>
+                <p>Price: $2,500</p>
+                <p>MALE</p>
+            </a>
+        </div>
+			<div class="puppy-box">
+            <a href="gallery8.html">
+                <img src="images/brian_cover.jpg" alt="brian">
+                <h3>Brian</h3>
+                <p>Breed: Golden Doodle</p>
+                <p>Price: $2,800</p>
+                <p>MALE</p>
+            </a>
+        </div>
+				<!-- <div class="slideshow-container">
+               	 <div class="mySlides fade">
+                    <img src="images/mia_cover.jpg" alt="Mia 4" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/mia1.jpg" alt="Mia 1" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/mia2.jpg" alt="Mia 2" style="width:100%">
+                </div>			
+                <div class="mySlides fade">
+                    <img src="images/mia3.jpg" alt="Mia 3" style="width:100%">      
+            <h3>Mia</h3>
+            <p>Breed: Golden Doodle</p>
+            <p>Price: $2,800</p>
+            <p>FEMALE</p>
+        </div>
+		</div>			
+		</div>			
+		<div class="puppy-box" onclick="openGallery('letty')">
+                <img src="images/letty_cover.jpg" alt="Puppy 2">
+				<!-- <div class="slideshow-container"> 
+                <div class="mySlides fade">
+                    <img src="images/letty_cover.jpg" alt="Letty 4" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/letty1.jpg" alt="Letty 1" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/letty2.jpg" alt="Letty 2" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/letty3.jpg" alt="Letty 3" style="width:100%">
+                </div> 
+				<div class="mySlides fade">
+                    <img src="images/letty4.jpg" alt="Letty 4" style="width:100%">
+            <h3>Letty</h3>
+            <p>Breed: Golden Doodle</p>
+            <p>Price: $2,800</p>
+            <p>FEMALE</p>
+		</div>
+		</div>			
+		</div>	
+    <div class="puppy-box" onclick="openGallery('cipher')">
+                <img src="images/cipher_cover.jpg" alt="Puppy 3">
+				<!--<div class="slideshow-container"> 
+                <div class="mySlides fade">
+                    <img src="images/cipher_cover.jpg" alt="cipher 3" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/cipher1.jpg" alt="Cipher 1" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/cipher2.jpg" alt="Cipher 2" style="width:100%">
+            <h3>Cipher</h3>
+            <p>Breed: Golden Doodle</p>
+            <p>Price: $2,800</p>
+            <p>FEMALE</p>
+        </div>
+		</div>			
+		</div>			
+		<div class="puppy-box" onclick="openGallery('dom')">
+                <img src="images/dominic_cover.jpg" alt="Puppy 4">
+				<!-- <div class="slideshow-container"> 
+                <div class="mySlides fade">
+                    <img src="images/dominic_Cover.jpg" alt="Dom 4" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/dom1.jpg" alt="Dom 1" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/dom2.jpg" alt="Dom 2" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/dom3.jpg" alt="Dom 3" style="width:100%">     
+            <h3>Dom</h3>
+            <p>Breed: Golden Doodle</p>
+            <p>Price: $2,500</p>
+            <p>MALE</p>
+        </div>
+		</div>			
+		</div>
+        <div class="puppy-box" onclick="openGallery('roman')">
+                <img src="images/roman_cover.jpg" alt="Puppy 5">
+				<!-- <div class="slideshow-container"> 
+                <div class="mySlides fade">
+                    <img src="images/roman_cover.jpg" alt="Roman 4" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/roman1.jpg" alt="Roman 1" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/roman2.jpg" alt="Roman 2" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/roman3.jpg" alt="Roman 3" style="width:100%">
+                </div>  
+            <h3>Roman</h3>
+            <p>Breed: Golden Doodle</p>
+            <p>Price: $2,500</p>
+            <p>MALE</p>
+        </div>
+		</div>			
+		</div>
+        <div class="puppy-box" onclick="openGallery('han')">
+                <img src="images/han_cover.jpg" alt="Puppy 6">
+				<!--<div class="slideshow-container"> 
+                <div class="mySlides fade">
+                    <img src="images/han_cover.jpg" alt="Han 4" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/han1.jpg" alt="Han 1" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/han2.jpg" alt="Han2 2" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/han3.jpg" alt="Han 3" style="width:100%">
+                </div>  
+            <h3>Han</h3>
+            <p>Breed: Golden Doodle</p>
+            <p>Price: $2,500</p>
+            <p>MALE</p>
+        </div>
+		</div>			
+		</div>
+		<div class="puppy-box" onclick="openGallery('tej')">
+                <img src="images/tej_cover.jpg" alt="Puppy 7">
+				<!-- <div class="slideshow-container"> 
+                <div class="mySlides fade">
+                    <img src="images/tej_cover.jpg" alt="Tej 4" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/tej1.jpg" alt="Tej 1" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/tej2.jpg" alt="Tej 2" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/tej3.jpg" alt="Tej 3" style="width:100%">
+                </div>  
+            <h3>Tej</h3>
+            <p>Breed: Golden Doodle</p>
+            <p>Price: $2,500</p>
+            <p>Male</p>
+        </div>
+		</div>			
+		</div>
+        <div class="puppy-box" onclick="openGallery('brian')">
+                <img src="images/brian_cover.jpg" alt="Puppy 8">
+				<!-- <div class="slideshow-container"> 
+                <div class="mySlides fade">
+                    <img src="images/Brian_cover.jpg" alt="Brian 3" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/brian1.jpg" alt="Brian 1" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/brian2.jpg" alt="Brian 2" style="width:100%">
+                </div>   
+            <h3>Brian</h3>
+            <p>Breed: Golden Doodle</p>
+            <p>Price: $2,500</p>
+            <p>MALE</p>
+        </div>
+		</div>			
+		</div>  -->
+
+
+
+            <!-- Repeat for all 8 puppies 
+			<div class="puppy-box" onclick="openGallery('letty')">
+                <img src="images/letty_cover.jpg" alt="Puppy 2">
+                <h3>Letty</h3>
+               <p>Breed: Golden Doodle</p>
+                <p>Price: $2,8800</p>
+				<p>FEMALE</p>
+            </div>
+			
+			<div class="puppy-box" onclick="openGallery('cipher')">
+                <img src="images/cipher_cover.jpg" alt="Puppy 3">
+                <h3>Cipher</h3>
+                <p>Breed: Golden Doodle</p>
+                <p>Price: $2,8800</p>
+				<p>FEMALE</p>
+            </div>
+			
+			<div class="puppy-box" onclick="openGallery('dom')">
+                <img src="images/dominic_Cover.jpg" alt="Puppy 4">
+                <h3>Dom</h3>
+                <p>Breed: Golden Doodle</p>
+                <p>Price: $2,500</p>
+				<p>MALE</p>
+            </div>
+			
+			<div class="puppy-box" onclick="openGallery('roman')">
+                <img src="images/roman_cover.jpg" alt="Puppy 5">
+                <h3>Roman</h3>
+                <p>Breed: Golden Doodle</p>
+                <p>Price: $2,500</p>
+				<p>MALE</p>
+            </div>
+			
+			<div class="puppy-box" onclick="openGallery('han')">
+                <img src="images/han_cover.jpg" alt="Puppy 6">
+                <h3>Han</h3>
+                <p>Breed: Golden Doodle</p>
+                <p>Price: $2,500</p>
+				<p>MALE</p>
+            </div>
+			
+			<div class="puppy-box" onclick="openGallery('tej')">
+                <img src="images/tej_Cover.jpg" alt="Puppy 7">
+                <h3>Tej</h3>
+                 <p>Breed: Golden Doodle</p>
+                <p>Price: $2,500</p>
+				<p>MALE</p>
+            </div>
+			
+			<div class="puppy-box" onclick="openGallery('brian')">
+                <img src="images/brian_Cover.jpg" alt="Puppy 8">
+                <h3>Brian</h3>
+                <p>Breed: Golden Doodle</p>
+                <p>Price: $2,500</p>
+				<p>MALE</p>
+            </div>  -->
+        </section>
+        <div class="pagination">
+            <button id="prevPage">Previous</button>
+            <span id="pageNumber">1</span>
+            <button id="nextPage">Next</button>
+        </div>
+    </main>
+  
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+<!-- Gallery Modal -->
+    <div id="galleryModal" class="modal">
+        <span class="close" onclick="closeGallery()">&times;</span>
+        <div class="modal-content" id="galleryContent">
+            <!-- Images will be inserted here by JavaScript -->
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+

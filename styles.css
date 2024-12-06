@@ -23,7 +23,7 @@ body, html {
 }
 
 .cover-image2 {
-    background-image: url('images/c61.webp');
+    background-image: url('images/Prince_Background.webp');
     background-size: cover;
     background-position: center;
     height: 130vh; /* Full viewport height */
